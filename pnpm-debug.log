@@ -1,0 +1,2894 @@
+{
+  "0 info pnpm:global": "Nothing to stop. No server is running for the store at C:\\Users\\lenovo\\.pnpm-store\\2",
+  "1 debug pnpm:scope": {
+    "selected": 1
+  },
+  "2 debug pnpm": {
+    "isCaseSensitive": false,
+    "store": "C:\\Users\\lenovo\\.pnpm-store\\2"
+  },
+  "3 debug pnpm:package-manifest": {
+    "initial": {
+      "dependencies": {
+        "nodemon": "^2.0.2",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.8.3"
+      }
+    },
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3"
+  },
+  "4 debug pnpm:stage": {
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "stage": "resolution_started"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/nodemon/2.0.2",
+    "wanted": {
+      "name": "nodemon",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/nodemon/2.0.2",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/ts-node/8.6.2",
+    "wanted": {
+      "name": "ts-node",
+      "rawSpec": "^8.6.2"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/typescript/3.8.3",
+    "wanted": {
+      "name": "typescript",
+      "rawSpec": "^3.8.3"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/typescript/3.8.3",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/nodemon/2.0.2",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/ts-node/8.6.2",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/ts-node/8.6.2",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/arg/4.1.3",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "arg",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/arg/4.1.3",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/diff/4.0.2",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "diff",
+      "rawSpec": "^4.0.1"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/diff/4.0.2",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/make-error/1.3.6",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "make-error",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/make-error/1.3.6",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/source-map-support/0.5.16",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "source-map-support",
+      "rawSpec": "^0.5.6"
+    }
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/source-map-support/0.5.16",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/yn/3.1.1",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "yn",
+      "rawSpec": "3.1.1"
+    }
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/yn/3.1.1",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/arg/4.1.3",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/diff/4.0.2",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/make-error/1.3.6",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/yn/3.1.1",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/source-map-support/0.5.16",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/typescript/3.8.3",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "found_in_store"
+  },
+  "29 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/pnpm/4.12.1",
+    "wanted": {
+      "name": "pnpm",
+      "rawSpec": "latest"
+    }
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "resolved"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/arg/4.1.3",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "arg",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/diff/4.0.2",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "diff",
+      "rawSpec": "^4.0.1"
+    }
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/make-error/1.3.6",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "make-error",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/source-map-support/0.5.16",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "source-map-support",
+      "rawSpec": "^0.5.6"
+    }
+  },
+  "35 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npm.taobao.org/yn/3.1.1",
+    "wanted": {
+      "dependentId": "registry.npm.taobao.org/ts-node/8.6.2",
+      "name": "yn",
+      "rawSpec": "3.1.1"
+    }
+  },
+  "36 debug pnpm:stage": {
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "stage": "resolution_done"
+  },
+  "37 debug pnpm:package-manifest": {
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "updated": {
+      "dependencies": {
+        "nodemon": "^2.0.2",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.8.3",
+        "pnpm": "^4.12.1"
+      }
+    }
+  },
+  "38 debug pnpm:stats": {
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "removed": 0
+  },
+  "39 debug pnpm:stage": {
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "stage": "importing_started"
+  },
+  "40 debug pnpm:stats": {
+    "added": 1,
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3"
+  },
+  "41 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "size": 6131172,
+    "status": "started"
+  },
+  "42 debug pnpm:fetching-progress": {
+    "downloaded": 14040,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "43 debug pnpm:fetching-progress": {
+    "downloaded": 22800,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "44 debug pnpm:fetching-progress": {
+    "downloaded": 33020,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "45 debug pnpm:fetching-progress": {
+    "downloaded": 38860,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "46 debug pnpm:fetching-progress": {
+    "downloaded": 43240,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "47 debug pnpm:fetching-progress": {
+    "downloaded": 46160,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "48 debug pnpm:fetching-progress": {
+    "downloaded": 52000,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "49 debug pnpm:fetching-progress": {
+    "downloaded": 57840,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "50 debug pnpm:fetching-progress": {
+    "downloaded": 65140,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "51 debug pnpm:fetching-progress": {
+    "downloaded": 70980,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "52 debug pnpm:fetching-progress": {
+    "downloaded": 72440,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "53 debug pnpm:fetching-progress": {
+    "downloaded": 87040,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "54 debug pnpm:fetching-progress": {
+    "downloaded": 94340,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "55 debug pnpm:fetching-progress": {
+    "downloaded": 100180,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "56 debug pnpm:fetching-progress": {
+    "downloaded": 116564,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "57 debug pnpm:fetching-progress": {
+    "downloaded": 132948,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "58 debug pnpm:fetching-progress": {
+    "downloaded": 149332,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "59 debug pnpm:fetching-progress": {
+    "downloaded": 165716,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "60 debug pnpm:fetching-progress": {
+    "downloaded": 182100,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "61 debug pnpm:fetching-progress": {
+    "downloaded": 198484,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "62 debug pnpm:fetching-progress": {
+    "downloaded": 211140,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "63 debug pnpm:fetching-progress": {
+    "downloaded": 212600,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "64 debug pnpm:fetching-progress": {
+    "downloaded": 215520,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "65 debug pnpm:fetching-progress": {
+    "downloaded": 224280,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "66 debug pnpm:fetching-progress": {
+    "downloaded": 240664,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "67 debug pnpm:fetching-progress": {
+    "downloaded": 257048,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "68 debug pnpm:fetching-progress": {
+    "downloaded": 273432,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "69 debug pnpm:fetching-progress": {
+    "downloaded": 280732,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "70 debug pnpm:fetching-progress": {
+    "downloaded": 289816,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "71 debug pnpm:fetching-progress": {
+    "downloaded": 297116,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "72 debug pnpm:fetching-progress": {
+    "downloaded": 306200,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "73 debug pnpm:fetching-progress": {
+    "downloaded": 322584,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "74 debug pnpm:fetching-progress": {
+    "downloaded": 338968,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "75 debug pnpm:fetching-progress": {
+    "downloaded": 355352,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "76 debug pnpm:fetching-progress": {
+    "downloaded": 371736,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "77 debug pnpm:fetching-progress": {
+    "downloaded": 388120,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "78 debug pnpm:fetching-progress": {
+    "downloaded": 404504,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "79 debug pnpm:fetching-progress": {
+    "downloaded": 420888,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "80 debug pnpm:fetching-progress": {
+    "downloaded": 428680,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "81 debug pnpm:fetching-progress": {
+    "downloaded": 430140,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "82 debug pnpm:fetching-progress": {
+    "downloaded": 438900,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "83 debug pnpm:fetching-progress": {
+    "downloaded": 453824,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "84 debug pnpm:fetching-progress": {
+    "downloaded": 468100,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "85 debug pnpm:fetching-progress": {
+    "downloaded": 469560,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "86 debug pnpm:fetching-progress": {
+    "downloaded": 484484,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "87 debug pnpm:fetching-progress": {
+    "downloaded": 494380,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "88 debug pnpm:fetching-progress": {
+    "downloaded": 507844,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "89 debug pnpm:fetching-progress": {
+    "downloaded": 522444,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "90 debug pnpm:fetching-progress": {
+    "downloaded": 523580,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "91 debug pnpm:fetching-progress": {
+    "downloaded": 524288,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "92 debug pnpm:fetching-progress": {
+    "downloaded": 540672,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "93 debug pnpm:fetching-progress": {
+    "downloaded": 557056,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "94 debug pnpm:fetching-progress": {
+    "downloaded": 573440,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "95 debug pnpm:fetching-progress": {
+    "downloaded": 589824,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "96 debug pnpm:fetching-progress": {
+    "downloaded": 606208,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "97 debug pnpm:fetching-progress": {
+    "downloaded": 622592,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "98 debug pnpm:fetching-progress": {
+    "downloaded": 638976,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "99 debug pnpm:fetching-progress": {
+    "downloaded": 655360,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "100 debug pnpm:fetching-progress": {
+    "downloaded": 671744,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "101 debug pnpm:fetching-progress": {
+    "downloaded": 688128,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "102 debug pnpm:fetching-progress": {
+    "downloaded": 704512,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "103 debug pnpm:fetching-progress": {
+    "downloaded": 720896,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "104 debug pnpm:fetching-progress": {
+    "downloaded": 737280,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "105 debug pnpm:fetching-progress": {
+    "downloaded": 753664,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "106 debug pnpm:fetching-progress": {
+    "downloaded": 770048,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "107 debug pnpm:fetching-progress": {
+    "downloaded": 786432,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "108 debug pnpm:fetching-progress": {
+    "downloaded": 802816,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "109 debug pnpm:fetching-progress": {
+    "downloaded": 819200,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "110 debug pnpm:fetching-progress": {
+    "downloaded": 835584,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "111 debug pnpm:fetching-progress": {
+    "downloaded": 851968,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "112 debug pnpm:fetching-progress": {
+    "downloaded": 868352,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "113 debug pnpm:fetching-progress": {
+    "downloaded": 884736,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "114 debug pnpm:fetching-progress": {
+    "downloaded": 901120,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "115 debug pnpm:fetching-progress": {
+    "downloaded": 917504,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "116 debug pnpm:fetching-progress": {
+    "downloaded": 933888,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "117 debug pnpm:fetching-progress": {
+    "downloaded": 950272,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "118 debug pnpm:fetching-progress": {
+    "downloaded": 966656,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "119 debug pnpm:fetching-progress": {
+    "downloaded": 983040,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "120 debug pnpm:fetching-progress": {
+    "downloaded": 999424,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "121 debug pnpm:fetching-progress": {
+    "downloaded": 1015808,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "122 debug pnpm:fetching-progress": {
+    "downloaded": 1020122,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "123 debug pnpm:fetching-progress": {
+    "downloaded": 1036506,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "124 debug pnpm:fetching-progress": {
+    "downloaded": 1039426,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "125 debug pnpm:fetching-progress": {
+    "downloaded": 1048576,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "126 debug pnpm:fetching-progress": {
+    "downloaded": 1049469,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "127 debug pnpm:fetching-progress": {
+    "downloaded": 1065529,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "128 debug pnpm:fetching-progress": {
+    "downloaded": 1078669,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "129 debug pnpm:fetching-progress": {
+    "downloaded": 1086293,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "130 debug pnpm:fetching-progress": {
+    "downloaded": 1102677,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "131 debug pnpm:fetching-progress": {
+    "downloaded": 1112897,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "132 debug pnpm:fetching-progress": {
+    "downloaded": 1129281,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "133 debug pnpm:fetching-progress": {
+    "downloaded": 1135445,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "134 debug pnpm:fetching-progress": {
+    "downloaded": 1138365,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "135 debug pnpm:fetching-progress": {
+    "downloaded": 1151829,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "136 debug pnpm:fetching-progress": {
+    "downloaded": 1168213,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "137 debug pnpm:fetching-progress": {
+    "downloaded": 1184597,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "138 debug pnpm:fetching-progress": {
+    "downloaded": 1200981,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "139 debug pnpm:fetching-progress": {
+    "downloaded": 1217365,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "140 debug pnpm:fetching-progress": {
+    "downloaded": 1233749,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "141 debug pnpm:fetching-progress": {
+    "downloaded": 1250133,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "142 debug pnpm:fetching-progress": {
+    "downloaded": 1266517,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "143 debug pnpm:fetching-progress": {
+    "downloaded": 1282901,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "144 debug pnpm:fetching-progress": {
+    "downloaded": 1299285,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "145 debug pnpm:fetching-progress": {
+    "downloaded": 1315669,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "146 debug pnpm:fetching-progress": {
+    "downloaded": 1332053,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "147 debug pnpm:fetching-progress": {
+    "downloaded": 1348437,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "148 debug pnpm:fetching-progress": {
+    "downloaded": 1364821,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "149 debug pnpm:fetching-progress": {
+    "downloaded": 1381205,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "150 debug pnpm:fetching-progress": {
+    "downloaded": 1397589,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "151 debug pnpm:fetching-progress": {
+    "downloaded": 1413973,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "152 debug pnpm:fetching-progress": {
+    "downloaded": 1430357,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "153 debug pnpm:fetching-progress": {
+    "downloaded": 1446741,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "154 debug pnpm:fetching-progress": {
+    "downloaded": 1463125,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "155 debug pnpm:fetching-progress": {
+    "downloaded": 1479509,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "156 debug pnpm:fetching-progress": {
+    "downloaded": 1495893,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "157 debug pnpm:fetching-progress": {
+    "downloaded": 1512277,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "158 debug pnpm:fetching-progress": {
+    "downloaded": 1528661,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "159 debug pnpm:fetching-progress": {
+    "downloaded": 1545045,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "160 debug pnpm:fetching-progress": {
+    "downloaded": 1561429,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "161 debug pnpm:fetching-progress": {
+    "downloaded": 1572864,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "162 debug pnpm:fetching-progress": {
+    "downloaded": 1589248,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "163 debug pnpm:fetching-progress": {
+    "downloaded": 1605632,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "164 debug pnpm:fetching-progress": {
+    "downloaded": 1622016,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "165 debug pnpm:fetching-progress": {
+    "downloaded": 1638400,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "166 debug pnpm:fetching-progress": {
+    "downloaded": 1654784,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "167 debug pnpm:fetching-progress": {
+    "downloaded": 1671168,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "168 debug pnpm:fetching-progress": {
+    "downloaded": 1687552,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "169 debug pnpm:fetching-progress": {
+    "downloaded": 1703936,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "170 debug pnpm:fetching-progress": {
+    "downloaded": 1720320,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "171 debug pnpm:fetching-progress": {
+    "downloaded": 1736704,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "172 debug pnpm:fetching-progress": {
+    "downloaded": 1753088,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "173 debug pnpm:fetching-progress": {
+    "downloaded": 1769472,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "174 debug pnpm:fetching-progress": {
+    "downloaded": 1785856,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "175 debug pnpm:fetching-progress": {
+    "downloaded": 1802240,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "176 debug pnpm:fetching-progress": {
+    "downloaded": 1818624,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "177 debug pnpm:fetching-progress": {
+    "downloaded": 1835008,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "178 debug pnpm:fetching-progress": {
+    "downloaded": 1851392,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "179 debug pnpm:fetching-progress": {
+    "downloaded": 1867776,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "180 debug pnpm:fetching-progress": {
+    "downloaded": 1884160,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "181 debug pnpm:fetching-progress": {
+    "downloaded": 1900544,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "182 debug pnpm:fetching-progress": {
+    "downloaded": 1916928,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "183 debug pnpm:fetching-progress": {
+    "downloaded": 1933312,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "184 debug pnpm:fetching-progress": {
+    "downloaded": 1949696,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "185 debug pnpm:fetching-progress": {
+    "downloaded": 1953358,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "186 debug pnpm:fetching-progress": {
+    "downloaded": 1954818,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "187 debug pnpm:fetching-progress": {
+    "downloaded": 1956278,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "188 debug pnpm:fetching-progress": {
+    "downloaded": 1972662,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "189 debug pnpm:fetching-progress": {
+    "downloaded": 1989046,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "190 debug pnpm:fetching-progress": {
+    "downloaded": 2005430,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "191 debug pnpm:fetching-progress": {
+    "downloaded": 2021814,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "192 debug pnpm:fetching-progress": {
+    "downloaded": 2038198,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "193 debug pnpm:fetching-progress": {
+    "downloaded": 2054582,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "194 debug pnpm:fetching-progress": {
+    "downloaded": 2070966,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "195 debug pnpm:fetching-progress": {
+    "downloaded": 2087350,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "196 debug pnpm:fetching-progress": {
+    "downloaded": 2097152,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "197 debug pnpm:fetching-progress": {
+    "downloaded": 2099505,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "198 debug pnpm:fetching-progress": {
+    "downloaded": 2112645,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "199 debug pnpm:fetching-progress": {
+    "downloaded": 2128705,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "200 debug pnpm:fetching-progress": {
+    "downloaded": 2130489,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "201 debug pnpm:fetching-progress": {
+    "downloaded": 2145413,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "202 debug pnpm:fetching-progress": {
+    "downloaded": 2151253,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "203 debug pnpm:fetching-progress": {
+    "downloaded": 2167637,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "204 debug pnpm:fetching-progress": {
+    "downloaded": 2178181,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "205 debug pnpm:fetching-progress": {
+    "downloaded": 2194565,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "206 debug pnpm:fetching-progress": {
+    "downloaded": 2210949,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "207 debug pnpm:fetching-progress": {
+    "downloaded": 2227333,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "208 debug pnpm:fetching-progress": {
+    "downloaded": 2243069,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "209 debug pnpm:fetching-progress": {
+    "downloaded": 2243717,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "210 debug pnpm:fetching-progress": {
+    "downloaded": 2260101,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "211 debug pnpm:fetching-progress": {
+    "downloaded": 2276485,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "212 debug pnpm:fetching-progress": {
+    "downloaded": 2292869,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "213 debug pnpm:fetching-progress": {
+    "downloaded": 2309253,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "214 debug pnpm:fetching-progress": {
+    "downloaded": 2325637,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "215 debug pnpm:fetching-progress": {
+    "downloaded": 2342021,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "216 debug pnpm:fetching-progress": {
+    "downloaded": 2358405,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "217 debug pnpm:fetching-progress": {
+    "downloaded": 2359385,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "218 debug pnpm:fetching-progress": {
+    "downloaded": 2375445,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "219 debug pnpm:fetching-progress": {
+    "downloaded": 2391829,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "220 debug pnpm:fetching-progress": {
+    "downloaded": 2394749,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "221 debug pnpm:fetching-progress": {
+    "downloaded": 2406105,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "222 debug pnpm:fetching-progress": {
+    "downloaded": 2422165,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "223 debug pnpm:fetching-progress": {
+    "downloaded": 2432385,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "224 debug pnpm:fetching-progress": {
+    "downloaded": 2448769,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "225 debug pnpm:fetching-progress": {
+    "downloaded": 2450229,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "226 debug pnpm:fetching-progress": {
+    "downloaded": 2466613,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "227 debug pnpm:fetching-progress": {
+    "downloaded": 2481537,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "228 debug pnpm:fetching-progress": {
+    "downloaded": 2497921,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "229 debug pnpm:fetching-progress": {
+    "downloaded": 2513657,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "230 debug pnpm:fetching-progress": {
+    "downloaded": 2530041,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "231 debug pnpm:fetching-progress": {
+    "downloaded": 2530689,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "232 debug pnpm:fetching-progress": {
+    "downloaded": 2547073,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "233 debug pnpm:fetching-progress": {
+    "downloaded": 2563457,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "234 debug pnpm:fetching-progress": {
+    "downloaded": 2579841,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "235 debug pnpm:fetching-progress": {
+    "downloaded": 2588601,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "236 debug pnpm:fetching-progress": {
+    "downloaded": 2604985,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "237 debug pnpm:fetching-progress": {
+    "downloaded": 2616345,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "238 debug pnpm:fetching-progress": {
+    "downloaded": 2621440,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "239 debug pnpm:fetching-progress": {
+    "downloaded": 2629633,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "240 debug pnpm:fetching-progress": {
+    "downloaded": 2646017,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "241 debug pnpm:fetching-progress": {
+    "downloaded": 2662077,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "242 debug pnpm:fetching-progress": {
+    "downloaded": 2678461,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "243 debug pnpm:fetching-progress": {
+    "downloaded": 2678785,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "244 debug pnpm:fetching-progress": {
+    "downloaded": 2695169,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "245 debug pnpm:fetching-progress": {
+    "downloaded": 2701009,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "246 debug pnpm:fetching-progress": {
+    "downloaded": 2711553,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "247 debug pnpm:fetching-progress": {
+    "downloaded": 2727937,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "248 debug pnpm:fetching-progress": {
+    "downloaded": 2743513,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "249 debug pnpm:fetching-progress": {
+    "downloaded": 2750813,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "250 debug pnpm:fetching-progress": {
+    "downloaded": 2752273,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "251 debug pnpm:fetching-progress": {
+    "downloaded": 2768657,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "252 debug pnpm:fetching-progress": {
+    "downloaded": 2785041,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "253 debug pnpm:fetching-progress": {
+    "downloaded": 2801425,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "254 debug pnpm:fetching-progress": {
+    "downloaded": 2817161,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "255 debug pnpm:fetching-progress": {
+    "downloaded": 2833545,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "256 debug pnpm:fetching-progress": {
+    "downloaded": 2834193,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "257 debug pnpm:fetching-progress": {
+    "downloaded": 2845873,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "258 debug pnpm:fetching-progress": {
+    "downloaded": 2862257,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "259 debug pnpm:fetching-progress": {
+    "downloaded": 2866961,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "260 debug pnpm:fetching-progress": {
+    "downloaded": 2875721,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "261 debug pnpm:fetching-progress": {
+    "downloaded": 2883673,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "262 debug pnpm:fetching-progress": {
+    "downloaded": 2885133,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "263 debug pnpm:fetching-progress": {
+    "downloaded": 2895353,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "264 debug pnpm:fetching-progress": {
+    "downloaded": 2902653,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "265 debug pnpm:fetching-progress": {
+    "downloaded": 2917253,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "266 debug pnpm:fetching-progress": {
+    "downloaded": 2933637,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "267 debug pnpm:fetching-progress": {
+    "downloaded": 2950021,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "268 debug pnpm:fetching-progress": {
+    "downloaded": 2966405,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "269 debug pnpm:fetching-progress": {
+    "downloaded": 2982789,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "270 debug pnpm:fetching-progress": {
+    "downloaded": 2999173,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "271 debug pnpm:fetching-progress": {
+    "downloaded": 3012153,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "272 debug pnpm:fetching-progress": {
+    "downloaded": 3028537,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "273 debug pnpm:fetching-progress": {
+    "downloaded": 3044921,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "274 debug pnpm:fetching-progress": {
+    "downloaded": 3061305,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "275 debug pnpm:fetching-progress": {
+    "downloaded": 3077689,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "276 debug pnpm:fetching-progress": {
+    "downloaded": 3094073,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "277 debug pnpm:fetching-progress": {
+    "downloaded": 3110457,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "278 debug pnpm:fetching-progress": {
+    "downloaded": 3126841,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "279 debug pnpm:fetching-progress": {
+    "downloaded": 3143225,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "280 debug pnpm:fetching-progress": {
+    "downloaded": 3145728,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "281 debug pnpm:fetching-progress": {
+    "downloaded": 3148648,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "282 debug pnpm:fetching-progress": {
+    "downloaded": 3158301,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "283 debug pnpm:fetching-progress": {
+    "downloaded": 3174685,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "284 debug pnpm:fetching-progress": {
+    "downloaded": 3185229,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "285 debug pnpm:fetching-progress": {
+    "downloaded": 3201613,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "286 debug pnpm:fetching-progress": {
+    "downloaded": 3217997,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "287 debug pnpm:fetching-progress": {
+    "downloaded": 3234381,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "288 debug pnpm:fetching-progress": {
+    "downloaded": 3250765,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "289 debug pnpm:fetching-progress": {
+    "downloaded": 3267149,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "290 debug pnpm:fetching-progress": {
+    "downloaded": 3283533,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "291 debug pnpm:fetching-progress": {
+    "downloaded": 3284993,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "292 debug pnpm:fetching-progress": {
+    "downloaded": 3301377,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "293 debug pnpm:fetching-progress": {
+    "downloaded": 3311597,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "294 debug pnpm:fetching-progress": {
+    "downloaded": 3327981,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "295 debug pnpm:fetching-progress": {
+    "downloaded": 3332685,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "296 debug pnpm:fetching-progress": {
+    "downloaded": 3349069,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "297 debug pnpm:fetching-progress": {
+    "downloaded": 3365453,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "298 debug pnpm:fetching-progress": {
+    "downloaded": 3381837,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "299 debug pnpm:fetching-progress": {
+    "downloaded": 3398221,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "300 debug pnpm:fetching-progress": {
+    "downloaded": 3407961,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "301 debug pnpm:fetching-progress": {
+    "downloaded": 3424345,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "302 debug pnpm:fetching-progress": {
+    "downloaded": 3440729,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "303 debug pnpm:fetching-progress": {
+    "downloaded": 3457113,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "304 debug pnpm:fetching-progress": {
+    "downloaded": 3473497,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "305 debug pnpm:fetching-progress": {
+    "downloaded": 3489881,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "306 debug pnpm:fetching-progress": {
+    "downloaded": 3506265,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "307 debug pnpm:fetching-progress": {
+    "downloaded": 3522649,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "308 debug pnpm:fetching-progress": {
+    "downloaded": 3539033,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "309 debug pnpm:fetching-progress": {
+    "downloaded": 3555417,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "310 debug pnpm:fetching-progress": {
+    "downloaded": 3571801,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "311 debug pnpm:fetching-progress": {
+    "downloaded": 3588185,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "312 debug pnpm:fetching-progress": {
+    "downloaded": 3604569,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "313 debug pnpm:fetching-progress": {
+    "downloaded": 3620953,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "314 debug pnpm:fetching-progress": {
+    "downloaded": 3637337,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "315 debug pnpm:fetching-progress": {
+    "downloaded": 3653721,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "316 debug pnpm:fetching-progress": {
+    "downloaded": 3670016,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "317 debug pnpm:fetching-progress": {
+    "downloaded": 3686400,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "318 debug pnpm:fetching-progress": {
+    "downloaded": 3702784,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "319 debug pnpm:fetching-progress": {
+    "downloaded": 3719168,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "320 debug pnpm:fetching-progress": {
+    "downloaded": 3735552,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "321 debug pnpm:fetching-progress": {
+    "downloaded": 3751936,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "322 debug pnpm:fetching-progress": {
+    "downloaded": 3768320,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "323 debug pnpm:fetching-progress": {
+    "downloaded": 3784704,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "324 debug pnpm:fetching-progress": {
+    "downloaded": 3801088,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "325 debug pnpm:fetching-progress": {
+    "downloaded": 3817472,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "326 debug pnpm:fetching-progress": {
+    "downloaded": 3833856,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "327 debug pnpm:fetching-progress": {
+    "downloaded": 3850240,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "328 debug pnpm:fetching-progress": {
+    "downloaded": 3866624,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "329 debug pnpm:fetching-progress": {
+    "downloaded": 3883008,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "330 debug pnpm:fetching-progress": {
+    "downloaded": 3899392,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "331 debug pnpm:fetching-progress": {
+    "downloaded": 3915776,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "332 debug pnpm:fetching-progress": {
+    "downloaded": 3932160,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "333 debug pnpm:fetching-progress": {
+    "downloaded": 3938089,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "334 debug pnpm:fetching-progress": {
+    "downloaded": 3954473,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "335 debug pnpm:fetching-progress": {
+    "downloaded": 3970857,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "336 debug pnpm:fetching-progress": {
+    "downloaded": 3987241,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "337 debug pnpm:fetching-progress": {
+    "downloaded": 4003625,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "338 debug pnpm:fetching-progress": {
+    "downloaded": 4020009,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "339 debug pnpm:fetching-progress": {
+    "downloaded": 4036393,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "340 debug pnpm:fetching-progress": {
+    "downloaded": 4048885,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "341 debug pnpm:fetching-progress": {
+    "downloaded": 4051805,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "342 debug pnpm:fetching-progress": {
+    "downloaded": 4068189,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "343 debug pnpm:fetching-progress": {
+    "downloaded": 4076949,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "344 debug pnpm:fetching-progress": {
+    "downloaded": 4093333,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "345 debug pnpm:fetching-progress": {
+    "downloaded": 4109717,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "346 debug pnpm:fetching-progress": {
+    "downloaded": 4126101,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "347 debug pnpm:fetching-progress": {
+    "downloaded": 4142485,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "348 debug pnpm:fetching-progress": {
+    "downloaded": 4158869,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "349 debug pnpm:fetching-progress": {
+    "downloaded": 4175253,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "350 debug pnpm:fetching-progress": {
+    "downloaded": 4179957,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "351 debug pnpm:fetching-progress": {
+    "downloaded": 4194304,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "352 debug pnpm:fetching-progress": {
+    "downloaded": 4210688,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "353 debug pnpm:fetching-progress": {
+    "downloaded": 4227072,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "354 debug pnpm:fetching-progress": {
+    "downloaded": 4243456,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "355 debug pnpm:fetching-progress": {
+    "downloaded": 4259840,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "356 debug pnpm:fetching-progress": {
+    "downloaded": 4276224,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "357 debug pnpm:fetching-progress": {
+    "downloaded": 4292608,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "358 debug pnpm:fetching-progress": {
+    "downloaded": 4308992,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "359 debug pnpm:fetching-progress": {
+    "downloaded": 4325376,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "360 debug pnpm:fetching-progress": {
+    "downloaded": 4341760,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "361 debug pnpm:fetching-progress": {
+    "downloaded": 4358144,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "362 debug pnpm:fetching-progress": {
+    "downloaded": 4374528,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "363 debug pnpm:fetching-progress": {
+    "downloaded": 4390912,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "364 debug pnpm:fetching-progress": {
+    "downloaded": 4407296,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "365 debug pnpm:fetching-progress": {
+    "downloaded": 4423680,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "366 debug pnpm:fetching-progress": {
+    "downloaded": 4440064,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "367 debug pnpm:fetching-progress": {
+    "downloaded": 4456448,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "368 debug pnpm:fetching-progress": {
+    "downloaded": 4472832,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "369 debug pnpm:fetching-progress": {
+    "downloaded": 4489216,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "370 debug pnpm:fetching-progress": {
+    "downloaded": 4505600,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "371 debug pnpm:fetching-progress": {
+    "downloaded": 4521984,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "372 debug pnpm:fetching-progress": {
+    "downloaded": 4538368,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "373 debug pnpm:fetching-progress": {
+    "downloaded": 4554752,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "374 debug pnpm:fetching-progress": {
+    "downloaded": 4571136,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "375 debug pnpm:fetching-progress": {
+    "downloaded": 4587520,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "376 debug pnpm:fetching-progress": {
+    "downloaded": 4603904,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "377 debug pnpm:fetching-progress": {
+    "downloaded": 4620288,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "378 debug pnpm:fetching-progress": {
+    "downloaded": 4636672,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "379 debug pnpm:fetching-progress": {
+    "downloaded": 4653056,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "380 debug pnpm:fetching-progress": {
+    "downloaded": 4669440,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "381 debug pnpm:fetching-progress": {
+    "downloaded": 4685824,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "382 debug pnpm:fetching-progress": {
+    "downloaded": 4702208,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "383 debug pnpm:fetching-progress": {
+    "downloaded": 4718592,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "384 debug pnpm:fetching-progress": {
+    "downloaded": 4734976,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "385 debug pnpm:fetching-progress": {
+    "downloaded": 4751360,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "386 debug pnpm:fetching-progress": {
+    "downloaded": 4767744,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "387 debug pnpm:fetching-progress": {
+    "downloaded": 4784128,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "388 debug pnpm:fetching-progress": {
+    "downloaded": 4800512,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "389 debug pnpm:fetching-progress": {
+    "downloaded": 4816896,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "390 debug pnpm:fetching-progress": {
+    "downloaded": 4833280,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "391 debug pnpm:fetching-progress": {
+    "downloaded": 4849664,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "392 debug pnpm:fetching-progress": {
+    "downloaded": 4866048,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "393 debug pnpm:fetching-progress": {
+    "downloaded": 4882432,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "394 debug pnpm:fetching-progress": {
+    "downloaded": 4898816,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "395 debug pnpm:fetching-progress": {
+    "downloaded": 4915200,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "396 debug pnpm:fetching-progress": {
+    "downloaded": 4931584,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "397 debug pnpm:fetching-progress": {
+    "downloaded": 4947968,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "398 debug pnpm:fetching-progress": {
+    "downloaded": 4964352,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "399 debug pnpm:fetching-progress": {
+    "downloaded": 4980736,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "400 debug pnpm:fetching-progress": {
+    "downloaded": 4997120,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "401 debug pnpm:fetching-progress": {
+    "downloaded": 5013504,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "402 debug pnpm:fetching-progress": {
+    "downloaded": 5029888,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "403 debug pnpm:fetching-progress": {
+    "downloaded": 5046272,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "404 debug pnpm:fetching-progress": {
+    "downloaded": 5062656,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "405 debug pnpm:fetching-progress": {
+    "downloaded": 5079040,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "406 debug pnpm:fetching-progress": {
+    "downloaded": 5095424,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "407 debug pnpm:fetching-progress": {
+    "downloaded": 5111808,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "408 debug pnpm:fetching-progress": {
+    "downloaded": 5128192,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "409 debug pnpm:fetching-progress": {
+    "downloaded": 5144576,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "410 debug pnpm:fetching-progress": {
+    "downloaded": 5160960,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "411 debug pnpm:fetching-progress": {
+    "downloaded": 5177344,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "412 debug pnpm:fetching-progress": {
+    "downloaded": 5193728,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "413 debug pnpm:fetching-progress": {
+    "downloaded": 5210112,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "414 debug pnpm:fetching-progress": {
+    "downloaded": 5226496,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "415 debug pnpm:fetching-progress": {
+    "downloaded": 5242880,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "416 debug pnpm:fetching-progress": {
+    "downloaded": 5259264,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "417 debug pnpm:fetching-progress": {
+    "downloaded": 5275648,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "418 debug pnpm:fetching-progress": {
+    "downloaded": 5292032,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "419 debug pnpm:fetching-progress": {
+    "downloaded": 5308416,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "420 debug pnpm:fetching-progress": {
+    "downloaded": 5324800,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "421 debug pnpm:fetching-progress": {
+    "downloaded": 5341184,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "422 debug pnpm:fetching-progress": {
+    "downloaded": 5357568,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "423 debug pnpm:fetching-progress": {
+    "downloaded": 5373952,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "424 debug pnpm:fetching-progress": {
+    "downloaded": 5390336,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "425 debug pnpm:fetching-progress": {
+    "downloaded": 5406720,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "426 debug pnpm:fetching-progress": {
+    "downloaded": 5423104,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "427 debug pnpm:fetching-progress": {
+    "downloaded": 5439488,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "428 debug pnpm:fetching-progress": {
+    "downloaded": 5455872,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "429 debug pnpm:fetching-progress": {
+    "downloaded": 5472256,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "430 debug pnpm:fetching-progress": {
+    "downloaded": 5488640,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "431 debug pnpm:fetching-progress": {
+    "downloaded": 5505024,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "432 debug pnpm:fetching-progress": {
+    "downloaded": 5521408,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "433 debug pnpm:fetching-progress": {
+    "downloaded": 5537792,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "434 debug pnpm:fetching-progress": {
+    "downloaded": 5554176,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "435 debug pnpm:fetching-progress": {
+    "downloaded": 5570560,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "436 debug pnpm:fetching-progress": {
+    "downloaded": 5586944,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "437 debug pnpm:fetching-progress": {
+    "downloaded": 5603328,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "438 debug pnpm:fetching-progress": {
+    "downloaded": 5619712,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "439 debug pnpm:fetching-progress": {
+    "downloaded": 5636096,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "440 debug pnpm:fetching-progress": {
+    "downloaded": 5652480,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "441 debug pnpm:fetching-progress": {
+    "downloaded": 5668864,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "442 debug pnpm:fetching-progress": {
+    "downloaded": 5685248,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "443 debug pnpm:fetching-progress": {
+    "downloaded": 5701632,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "444 debug pnpm:fetching-progress": {
+    "downloaded": 5718016,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "445 debug pnpm:fetching-progress": {
+    "downloaded": 5734400,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "446 debug pnpm:fetching-progress": {
+    "downloaded": 5750784,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "447 debug pnpm:fetching-progress": {
+    "downloaded": 5767168,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "448 debug pnpm:fetching-progress": {
+    "downloaded": 5783552,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "449 debug pnpm:fetching-progress": {
+    "downloaded": 5799936,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "450 debug pnpm:fetching-progress": {
+    "downloaded": 5816320,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "451 debug pnpm:fetching-progress": {
+    "downloaded": 5832704,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "452 debug pnpm:fetching-progress": {
+    "downloaded": 5849088,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "453 debug pnpm:fetching-progress": {
+    "downloaded": 5865472,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "454 debug pnpm:fetching-progress": {
+    "downloaded": 5881856,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "455 debug pnpm:fetching-progress": {
+    "downloaded": 5898240,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "456 debug pnpm:fetching-progress": {
+    "downloaded": 5914624,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "457 debug pnpm:fetching-progress": {
+    "downloaded": 5931008,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "458 debug pnpm:fetching-progress": {
+    "downloaded": 5947392,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "459 debug pnpm:fetching-progress": {
+    "downloaded": 5963776,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "460 debug pnpm:fetching-progress": {
+    "downloaded": 5980160,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "461 debug pnpm:fetching-progress": {
+    "downloaded": 5996544,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "462 debug pnpm:fetching-progress": {
+    "downloaded": 6012928,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "463 debug pnpm:fetching-progress": {
+    "downloaded": 6029312,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "464 debug pnpm:fetching-progress": {
+    "downloaded": 6045696,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "465 debug pnpm:fetching-progress": {
+    "downloaded": 6062080,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "466 debug pnpm:fetching-progress": {
+    "downloaded": 6078464,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "467 debug pnpm:fetching-progress": {
+    "downloaded": 6094848,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "468 debug pnpm:fetching-progress": {
+    "downloaded": 6111232,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "469 debug pnpm:fetching-progress": {
+    "downloaded": 6127616,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "470 debug pnpm:fetching-progress": {
+    "downloaded": 6131172,
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "status": "in_progress"
+  },
+  "471 debug pnpm:progress": {
+    "packageId": "registry.npm.taobao.org/pnpm/4.12.1",
+    "requester": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "status": "fetched"
+  },
+  "472 debug pnpm:importing": {
+    "from": "C:\\Users\\lenovo\\.pnpm-store\\2\\registry.npm.taobao.org\\pnpm\\4.12.1\\node_modules\\pnpm",
+    "to": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\pnpm\\4.12.1\\node_modules\\pnpm",
+    "method": "clone"
+  },
+  "473 debug pnpm:importing": {
+    "from": "C:\\Users\\lenovo\\.pnpm-store\\2\\registry.npm.taobao.org\\pnpm\\4.12.1\\node_modules\\pnpm",
+    "to": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\pnpm\\4.12.1\\node_modules\\pnpm",
+    "method": "hardlink"
+  },
+  "474 debug pnpm:stage": {
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3",
+    "stage": "importing_done"
+  },
+  "475 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\pnpm\\4.12.1\\node_modules\\pnpm",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\pnpm"
+  },
+  "476 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\nodemon\\2.0.2\\node_modules\\nodemon",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\nodemon"
+  },
+  "477 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ts-node\\8.6.2_typescript@3.8.3\\node_modules\\ts-node",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\ts-node"
+  },
+  "478 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\typescript\\3.8.3\\node_modules\\typescript",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\typescript"
+  },
+  "479 debug pnpm:root": {
+    "added": {
+      "dependencyType": "prod",
+      "id": "registry.npm.taobao.org/pnpm/4.12.1",
+      "name": "pnpm",
+      "realName": "pnpm",
+      "version": "4.12.1"
+    },
+    "prefix": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3"
+  },
+  "480 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\arg\\4.1.3\\node_modules\\arg",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\arg"
+  },
+  "481 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\chokidar\\3.3.1\\node_modules\\chokidar",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\chokidar"
+  },
+  "482 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\debug\\3.2.6\\node_modules\\debug",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\debug"
+  },
+  "483 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\diff\\4.0.2\\node_modules\\diff",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\diff"
+  },
+  "484 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ignore-by-default\\1.0.1\\node_modules\\ignore-by-default",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\ignore-by-default"
+  },
+  "485 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\make-error\\1.3.6\\node_modules\\make-error",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\make-error"
+  },
+  "486 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\minimatch\\3.0.4\\node_modules\\minimatch",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\minimatch"
+  },
+  "487 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\pstree.remy\\1.1.7\\node_modules\\pstree.remy",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\pstree.remy"
+  },
+  "488 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\semver\\5.7.1\\node_modules\\semver",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\semver"
+  },
+  "489 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\source-map-support\\0.5.16\\node_modules\\source-map-support",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\source-map-support"
+  },
+  "490 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\supports-color\\5.5.0\\node_modules\\supports-color",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\supports-color"
+  },
+  "491 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\touch\\3.1.0\\node_modules\\touch",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\touch"
+  },
+  "492 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\undefsafe\\2.0.3\\node_modules\\undefsafe",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\undefsafe"
+  },
+  "493 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\update-notifier\\2.5.0\\node_modules\\update-notifier",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\update-notifier"
+  },
+  "494 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\yn\\3.1.1\\node_modules\\yn",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\yn"
+  },
+  "495 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\anymatch\\3.1.1\\node_modules\\anymatch",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\anymatch"
+  },
+  "496 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\boxen\\1.3.0\\node_modules\\boxen",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\boxen"
+  },
+  "497 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\brace-expansion\\1.1.11\\node_modules\\brace-expansion",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\brace-expansion"
+  },
+  "498 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\braces\\3.0.2\\node_modules\\braces",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\braces"
+  },
+  "499 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\buffer-from\\1.1.1\\node_modules\\buffer-from",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\buffer-from"
+  },
+  "500 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\chalk\\2.4.2\\node_modules\\chalk",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\chalk"
+  },
+  "501 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\configstore\\3.1.2\\node_modules\\configstore",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\configstore"
+  },
+  "502 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\fsevents\\2.1.2\\node_modules\\fsevents",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\fsevents"
+  },
+  "503 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\glob-parent\\5.1.0\\node_modules\\glob-parent",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\glob-parent"
+  },
+  "504 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\has-flag\\3.0.0\\node_modules\\has-flag",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\has-flag"
+  },
+  "505 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\import-lazy\\2.1.0\\node_modules\\import-lazy",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\import-lazy"
+  },
+  "506 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-binary-path\\2.1.0\\node_modules\\is-binary-path",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-binary-path"
+  },
+  "507 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-ci\\1.2.1\\node_modules\\is-ci",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-ci"
+  },
+  "508 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-glob\\4.0.1\\node_modules\\is-glob",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-glob"
+  },
+  "509 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-installed-globally\\0.1.0\\node_modules\\is-installed-globally",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-installed-globally"
+  },
+  "510 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-npm\\1.0.0\\node_modules\\is-npm",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-npm"
+  },
+  "511 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\latest-version\\3.1.0\\node_modules\\latest-version",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\latest-version"
+  },
+  "512 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ms\\2.1.2\\node_modules\\ms",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\ms"
+  },
+  "513 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\nopt\\1.0.10\\node_modules\\nopt",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\nopt"
+  },
+  "514 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\normalize-path\\3.0.0\\node_modules\\normalize-path",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\normalize-path"
+  },
+  "515 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\readdirp\\3.3.0\\node_modules\\readdirp",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\readdirp"
+  },
+  "516 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\semver-diff\\2.1.0\\node_modules\\semver-diff",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\semver-diff"
+  },
+  "517 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\source-map\\0.6.1\\node_modules\\source-map",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\source-map"
+  },
+  "518 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\xdg-basedir\\3.0.0\\node_modules\\xdg-basedir",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\xdg-basedir"
+  },
+  "519 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\abbrev\\1.1.1\\node_modules\\abbrev",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\abbrev"
+  },
+  "520 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ansi-align\\2.0.0\\node_modules\\ansi-align",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\ansi-align"
+  },
+  "521 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ansi-styles\\3.2.1\\node_modules\\ansi-styles",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\ansi-styles"
+  },
+  "522 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\balanced-match\\1.0.0\\node_modules\\balanced-match",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\balanced-match"
+  },
+  "523 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\binary-extensions\\2.0.0\\node_modules\\binary-extensions",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\binary-extensions"
+  },
+  "524 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\camelcase\\4.1.0\\node_modules\\camelcase",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\camelcase"
+  },
+  "525 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ci-info\\1.6.0\\node_modules\\ci-info",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\ci-info"
+  },
+  "526 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\cli-boxes\\1.0.0\\node_modules\\cli-boxes",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\cli-boxes"
+  },
+  "527 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\concat-map\\0.0.1\\node_modules\\concat-map",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\concat-map"
+  },
+  "528 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\dot-prop\\4.2.0\\node_modules\\dot-prop",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\dot-prop"
+  },
+  "529 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\escape-string-regexp\\1.0.5\\node_modules\\escape-string-regexp",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\escape-string-regexp"
+  },
+  "530 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\fill-range\\7.0.1\\node_modules\\fill-range",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\fill-range"
+  },
+  "531 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\global-dirs\\0.1.1\\node_modules\\global-dirs",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\global-dirs"
+  },
+  "532 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\graceful-fs\\4.2.3\\node_modules\\graceful-fs",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\graceful-fs"
+  },
+  "533 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-extglob\\2.1.1\\node_modules\\is-extglob",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-extglob"
+  },
+  "534 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-path-inside\\1.0.1\\node_modules\\is-path-inside",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-path-inside"
+  },
+  "535 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\make-dir\\1.3.0\\node_modules\\make-dir",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\make-dir"
+  },
+  "536 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\package-json\\4.0.1\\node_modules\\package-json",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\package-json"
+  },
+  "537 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\picomatch\\2.2.1\\node_modules\\picomatch",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\picomatch"
+  },
+  "538 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\string-width\\2.1.1\\node_modules\\string-width",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\string-width"
+  },
+  "539 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\term-size\\1.2.0\\node_modules\\term-size",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\term-size"
+  },
+  "540 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\unique-string\\1.0.0\\node_modules\\unique-string",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\unique-string"
+  },
+  "541 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\widest-line\\2.0.1\\node_modules\\widest-line",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\widest-line"
+  },
+  "542 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\write-file-atomic\\2.4.3\\node_modules\\write-file-atomic",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\write-file-atomic"
+  },
+  "543 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\color-convert\\1.9.3\\node_modules\\color-convert",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\color-convert"
+  },
+  "544 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\crypto-random-string\\1.0.0\\node_modules\\crypto-random-string",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\crypto-random-string"
+  },
+  "545 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\execa\\0.7.0\\node_modules\\execa",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\execa"
+  },
+  "546 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\got\\6.7.1\\node_modules\\got",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\got"
+  },
+  "547 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\imurmurhash\\0.1.4\\node_modules\\imurmurhash",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\imurmurhash"
+  },
+  "548 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ini\\1.3.5\\node_modules\\ini",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\ini"
+  },
+  "549 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-fullwidth-code-point\\2.0.0\\node_modules\\is-fullwidth-code-point",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-fullwidth-code-point"
+  },
+  "550 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-obj\\1.0.1\\node_modules\\is-obj",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-obj"
+  },
+  "551 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\path-is-inside\\1.0.2\\node_modules\\path-is-inside",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\path-is-inside"
+  },
+  "552 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\pify\\3.0.0\\node_modules\\pify",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\pify"
+  },
+  "553 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\registry-auth-token\\3.4.0\\node_modules\\registry-auth-token",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\registry-auth-token"
+  },
+  "554 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\registry-url\\3.1.0\\node_modules\\registry-url",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\registry-url"
+  },
+  "555 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\strip-ansi\\4.0.0\\node_modules\\strip-ansi",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\strip-ansi"
+  },
+  "556 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\to-regex-range\\5.0.1\\node_modules\\to-regex-range",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\to-regex-range"
+  },
+  "557 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\ansi-regex\\3.0.0\\node_modules\\ansi-regex",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\ansi-regex"
+  },
+  "558 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\color-name\\1.1.3\\node_modules\\color-name",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\color-name"
+  },
+  "559 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\create-error-class\\3.0.2\\node_modules\\create-error-class",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\create-error-class"
+  },
+  "560 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\cross-spawn\\5.1.0\\node_modules\\cross-spawn",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\cross-spawn"
+  },
+  "561 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\duplexer3\\0.1.4\\node_modules\\duplexer3",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\duplexer3"
+  },
+  "562 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\get-stream\\3.0.0\\node_modules\\get-stream",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\get-stream"
+  },
+  "563 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-number\\7.0.0\\node_modules\\is-number",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-number"
+  },
+  "564 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-redirect\\1.0.0\\node_modules\\is-redirect",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-redirect"
+  },
+  "565 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-retry-allowed\\1.2.0\\node_modules\\is-retry-allowed",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-retry-allowed"
+  },
+  "566 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\is-stream\\1.1.0\\node_modules\\is-stream",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\is-stream"
+  },
+  "567 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\lowercase-keys\\1.0.1\\node_modules\\lowercase-keys",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\lowercase-keys"
+  },
+  "568 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\npm-run-path\\2.0.2\\node_modules\\npm-run-path",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\npm-run-path"
+  },
+  "569 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\p-finally\\1.0.0\\node_modules\\p-finally",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\p-finally"
+  },
+  "570 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\rc\\1.2.8\\node_modules\\rc",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\rc"
+  },
+  "571 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\safe-buffer\\5.2.0\\node_modules\\safe-buffer",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\safe-buffer"
+  },
+  "572 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\signal-exit\\3.0.2\\node_modules\\signal-exit",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\signal-exit"
+  },
+  "573 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\strip-eof\\1.0.0\\node_modules\\strip-eof",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\strip-eof"
+  },
+  "574 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\timed-out\\4.0.1\\node_modules\\timed-out",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\timed-out"
+  },
+  "575 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\unzip-response\\2.0.1\\node_modules\\unzip-response",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\unzip-response"
+  },
+  "576 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\url-parse-lax\\1.0.0\\node_modules\\url-parse-lax",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\url-parse-lax"
+  },
+  "577 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\capture-stack-trace\\1.0.1\\node_modules\\capture-stack-trace",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\capture-stack-trace"
+  },
+  "578 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\deep-extend\\0.6.0\\node_modules\\deep-extend",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\deep-extend"
+  },
+  "579 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\lru-cache\\4.1.5\\node_modules\\lru-cache",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\lru-cache"
+  },
+  "580 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\minimist\\1.2.0\\node_modules\\minimist",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\minimist"
+  },
+  "581 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\path-key\\2.0.1\\node_modules\\path-key",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\path-key"
+  },
+  "582 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\prepend-http\\1.0.4\\node_modules\\prepend-http",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\prepend-http"
+  },
+  "583 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\shebang-command\\1.2.0\\node_modules\\shebang-command",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\shebang-command"
+  },
+  "584 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\strip-json-comments\\2.0.1\\node_modules\\strip-json-comments",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\strip-json-comments"
+  },
+  "585 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\which\\1.3.1\\node_modules\\which",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\which"
+  },
+  "586 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\isexe\\2.0.0\\node_modules\\isexe",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\isexe"
+  },
+  "587 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\pseudomap\\1.0.2\\node_modules\\pseudomap",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\pseudomap"
+  },
+  "588 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\shebang-regex\\1.0.0\\node_modules\\shebang-regex",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\shebang-regex"
+  },
+  "589 debug pnpm:link": {
+    "target": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npm.taobao.org\\yallist\\2.1.2\\node_modules\\yallist",
+    "link": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\node_modules\\yallist"
+  },
+  "590 error pnpm": {
+    "message": {
+      "errno": -4048,
+      "code": "EPERM",
+      "syscall": "open",
+      "path": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm"
+    },
+    "err": {
+      "name": "Error",
+      "message": "EPERM: operation not permitted, open 'C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm'",
+      "code": "EPERM",
+      "stack": "Error: EPERM: operation not permitted, open 'C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm'"
+    }
+  }
+}

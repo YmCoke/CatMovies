@@ -1,0 +1,11 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^4.0.4",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.3"
+  }
+}

@@ -1,0 +1,1 @@
+构建reducer函数, 处理action
